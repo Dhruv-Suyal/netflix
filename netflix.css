@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(33, 21, 21);
+    
+
+}
+.overlays{
+    position:relative;
+    background-color: black;
+    width: 100%;
+}
+
+.backgroundimg {
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height: 50rem;
+    opacity: 0.16;
+    filter: blur(16px);
+    background: url('/image/image0.png') no-repeat center center;
+    background-size: cover;
+    z-index:-1;
+    background: linear-gradient(to top, rgb(12, 12, 12), transparent);
+}
+
+.hardoverlay{
+    position:absolute;
+     width: 100%;
+    height: 50rem;
+    
+}
+
+.loweroverlay{
+    position:absolute;
+    top: 50rem;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    height:126rem;
+}
+.navbar {
+    width: 100%;
+    height: 7rem;
+    padding: 1.5rem 3rem 0rem 3rem;
+    z-index: 100;
+    position:fixed;
+    top: 0;
+}
+
+.logo {
+    height: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usinglist {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    margin-top: 15px;
+}
+
+.list {
+    background-color: rgb(10, 10, 10);
+    height:2.5rem;
+    box-sizing: border-box;
+    width:28rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-family: inherit;
+    color: rgb(176, 171, 171);
+    font-weight: 600;
+}
+
+.list1:hover{
+    color: white;
+}
+.list2:hover{
+    color: white;
+}
+.list3:hover{
+    color: white;
+}
+.list4:hover{
+    color: white;
+}
+
+.logoimg {
+    box-sizing: border-box;
+
+
+}
+
+.logoitems {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.netfliximg {
+    width: 100%;
+    height: 90%;
+
+}
+
+.lang {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font: inherit;
+    border: 0.1px solid white;
+}
+
+.signin {
+    background-color: white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 15px;
+    font: inherit;
+    margin-left: 8px;
+    font-weight: 600;
+}
+.signin:hover{
+    background-color: rgb(185, 183, 183);
+}
+
+.containerbannerimg {
+    height: 35rem;
+    margin: 8.5rem 3rem 0rem 3rem;
+    border-radius: 2rem;
+    box-shadow: inset 70px 80px 80px rgb(11, 11, 11);
+    background-color: black;
+    position:relative;
+    
+}
+
+.blackshadow{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:45;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2;
+    opacity: 50%;
+    border-radius: 2rem;
+}
+.bannerimg {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    background-image: url(/image/image0.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+    box-shadow: inset 0px -20px 40px white;
+    align-content: center;
+    justify-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.bannertext {
+    position: absolute;
+    width: 100%;
+    color: white;
+    justify-items: center;
+    top: 10rem;
+    z-index: 3;
+}
+
+.bannertext h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.bannertext h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+.bannertext h4 {
+    font-weight: 200;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 26rem;
+    gap: 4rem;
+}
+
+.buttons input {
+    background-color: gray;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 4rem;
+    border: none;
+}
+::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left:15px;
+}
+
+.buttons button {
+    width: 14rem;
+    height: 4rem;
+    border-radius:2rem;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+
+.contentcollection{
+    width:90%;
+    height: 20rem;
+    position: relative;
+    padding-left: 8rem;
+    
+}
+
+.trendingnow{
+    margin-top:2rem;
+    width: 50%;
+    color: rgb(215, 212, 212);
+    
+}
+
+.imagecollection{
+    width:100%;
+    height:24rem;
+    display: flex;
+    gap: 2.5rem;
+    overflow-x:scroll;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.images{
+    margin-top: 2rem;
+    width:8rem;
+    height:16rem;
+    display: flex;
+    border-radius: 1rem;
+    flex-shrink: 0;
+}
+.images:hover {
+  transform: scale(1.1); /* Slightly larger */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Gives a lift effect */
+  transition: all 0.6s ease-out;
+}
+.images img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    transform: none;
+    transition: none;
+    
+}
+.img10{
+    margin-left: -2.5rem;
+}
+.element{
+    color: black;
+    font-size:5rem;
+    text-shadow:2px 2px 0px rgb(251, 247, 247),  -2px -2px 0px rgb(253, 248, 248),  2px -2px 0px rgb(251, 249, 249),  -2px 2px 0px rgb(253, 249, 249);
+    transform: translateX(1.2rem);
+    opacity:90%;
+}
+.element10{
+    color: black;
+    font-size:5rem;
+    text-shadow:2px 2px 0px rgb(251, 247, 247),  -2px -2px 0px rgb(253, 248, 248),  2px -2px 0px rgb(251, 249, 249),  -2px 2px 0px rgb(253, 249, 249);
+    transform: translateX(4rem);
+    opacity:80%;
+}
+
+
+.plans{
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    margin-top: 2rem;
+}
+.heading{
+    padding-left:9rem;
+    font-style: inherit;
+    font-size:1.5rem;
+    font-weight:600;
+    
+}
+.plansboxes{
+    width:84%;
+    height: 15rem;
+    margin-left: 8rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+.plansboxes p{
+    color: rgb(250, 245, 245);
+}
+.heading p{
+    color: rgb(250, 245, 245);
+}
+.plandiv{
+    width:30rem;
+    height:15rem;
+    margin-top: 0.5rem;
+    background-color: blue;
+    position: relative;
+    border-radius:1rem;
+    color: rgb(226, 221, 221);
+    padding-left: 1.2rem;
+    padding-top: 2.4rem;
+}
+.plandiv span{
+    font-size:0.9rem;
+}
+.mostpopular{
+    position:absolute;
+    background-color: rgb(106, 57, 253);
+    width: 6.5rem;
+    height:1.6rem;
+    top:0;
+    right: 0%;
+    font-size:0.9rem;
+    font-weight: 600;
+    border-bottom-left-radius: 0.4rem;
+    border-top-right-radius:1rem;
+    padding:5px;
+
+}
+.plandiv p{
+    margin-top:10px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+.plandiv .rate{
+    position: absolute;
+    bottom:1.2rem;
+}
+.plandiv img{
+    width:1.1rem;
+    height: 1.1rem;
+    margin-right:5px;
+    
+}
+
+.mobile{
+    background: linear-gradient(149deg, #1C4072 6.96%, #172B47 40.17%, #120c1f 73.39%);
+}
+.mobile:hover {
+  transform: scale(1.02); /* Slightly larger */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Gives a lift effect */
+  transition: all 0.6s ease-out;
+}
+.basic{
+    background: linear-gradient(149deg, #1C4072 6.96%, #172B47 40.17%, #120c1f 73.39%);
+}
+.basic:hover {
+  transform: scale(1.02); /* Slightly larger */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Gives a lift effect */
+  transition: all 0.6s ease-out;
+}
+.standard{
+    background: linear-gradient(149deg, #59216E 6.96%, #251743 40.17%, #120c1f 73.39%);
+}
+.standard:hover {
+  transform: scale(1.02); /* Slightly larger */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Gives a lift effect */
+  transition: all 0.6s ease-out;
+}
+.premium{
+background: linear-gradient(149deg, #59216E 6.96%, #251743 40.17%, #120c1f 73.39%);
+}
+.premium:hover {
+  transform: scale(1.02); /* Slightly larger */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Gives a lift effect */
+  transition: all 0.6s ease-out;
+}
+
+.heading2{
+    padding-left:8rem;
+    font-style: inherit;
+    font-size:2rem;
+    font-weight:800;
+    
+}
+.heading2 p{
+    color: rgb(250, 245, 245);
+}
+.reasons{
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    margin-top:5rem;
+}
+.reasonsboxes{
+    width:84%;
+    height: 15rem;
+    margin-left: 8rem;
+    display: flex;
+    gap: 2rem;
+    
+}
+.reasondiv{
+    width:30rem;
+    height:15rem;
+    margin-top: 0.5rem;
+    background-color: rgb(32, 32, 33);
+    position: relative;
+    border-radius:1rem;
+    color: rgb(226, 221, 221);
+    padding-left: 1.2rem;
+    padding-top: 1.5rem;
+}
+.reasondiv:hover {
+  transform: scale(1.02); /* Slightly larger */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Gives a lift effect */
+  transition: all 0.6s ease-out;
+}
+.reasondiv h2{
+    font-size:1.2rem;
+}
+.reasondiv p{
+    margin-top: 1.5rem;
+    color: rgb(172, 164, 164);
+    font-style: inherit;
+    font-weight: 600;
+}
+.reasondiv div{
+    position:absolute;
+    width: 65px;
+    height: 65px;
+    bottom: 5%;
+    right: 5%;
+}
+
+.qna{
+    width: 100%;
+    height: 38rem;
+    position: relative;
+    margin-top:6rem;
+}
+.faq{
+    padding-left: 8rem;
+}
+.faq h1{
+    font-weight: 800;
+    color: white;
+}
+.questions{
+    width: 81rem;
+    height: 30rem;
+    position: relative;
+    margin-top:0.5em;
+    margin-left: 7.5rem;
+
+}
+.qdiv{
+    background-color:rgb(42, 41, 41);
+    width: 100%;
+    height: 4.7rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.qdiv:hover{
+    background-color: rgb(114, 113, 113);
+   transition: all 0.5s ease-out;
+}
+.qdiv p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.qdivs{
+    width: 20rem;
+    margin-left: 1.5rem;
+}
+.qdivs p{
+    color: rgb(250, 245, 245);
+}
+.plus{
+    margin-right: 1rem;
+}
+
+.lastdance{
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top:0.8rem;
+}
+.lastdance p{
+    color: rgb(250, 245, 245);
+}
+.formflex{
+    display: flex;
+    gap: 6rem;
+    
+}
+.formcreation{
+    position: relative;
+    margin-left: 24rem;
+}
+.getstarted{
+    position: relative;
+   margin-left: 10rem;
+}
+.getstarted button{
+    width: 6.5rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    padding-left:8px;
+    font-size: 0.8rem;
+    background-color: rgb(211, 203, 203);
+    border: none;
+}
+
+.callq{
+    padding-bottom: 2.5rem;
+    color: rgb(169, 167, 167);
+}
+.footerelement{
+    position: relative;
+    margin:4rem 8rem 2rem 8rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+
+}
+
+.gridelement{
+    color: rgb(169, 167, 167);
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.lang2{
+    position: relative;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font: inherit;
+    margin-top: 2rem;
+    margin-left:8rem;
+    border: 0.1px solid white;
+}
+
+.lastone{
+    position: relative;
+    color: rgb(169, 167, 167);
+    margin-left:8rem;
+    margin-top: 3.5rem;
+    height: 2rem;
+    font-size: 0.9rem;
+}

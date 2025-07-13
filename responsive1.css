@@ -1,0 +1,296 @@
+.loweroverlay {
+    top: 70rem;
+    height: 174rem;
+}
+.navbar {
+    width: 100%;
+    height: 15rem;
+    padding-right: 5rem;  
+}
+.lang {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font: inherit;
+    border: 0.1px solid white;
+    font-size: 1.8rem;
+}
+.lang img{
+    width:2rem;
+}
+
+.signin {
+    background-color: white;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 30px;
+    font: inherit;
+    margin-left:1.5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.usinglist {
+    height: 5rem;
+}
+.list {
+    height:4.5rem;
+    width:80rem;
+    border-radius: 3.5rem;
+}
+.list ul {
+    gap: 8rem;
+    font-size:2rem;
+    font-weight: 600;
+}
+.containerbannerimg {
+        height: 50rem;
+        margin: 16rem 3rem 0rem 3rem;
+        border-radius: 2rem;
+}
+.bannertext {
+    width: 100%;
+    top: 10rem;
+}
+.buttons {
+    width: 100%;
+    top: 36rem;
+    gap: 4rem;
+}
+.bannertext h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.bannertext h3 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+.bannertext h4 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+.buttons input {
+    border-radius: 2.5rem;
+    width: 28rem;
+    height: 5rem;
+}
+::placeholder{
+    font-size: 25px;
+    padding-left:15px;
+}
+
+.buttons button {
+    width: 20rem;
+    height: 5rem;
+    border-radius:2.5rem;
+    font-size: 35px;
+    font-weight: 600;
+}
+.contentcollection{
+    width:94%;
+    height: 25rem;
+    padding-left: 8rem;
+    margin-bottom: 14rem;
+    
+}
+
+.trendingnow{
+    margin-top:2rem;
+    width: 50%;
+    color: rgb(215, 212, 212);
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+.imagecollection{
+    width:100%;
+    height:32rem;
+    gap: 4.5rem;
+    
+}
+.images{
+    margin-top: 2rem;
+    width:17rem;
+    height:30rem;
+    border-radius: 1rem;
+}
+.element{
+    font-size:10rem;
+    transform: translateX(2.2rem);
+}
+.element10{
+    font-size:10rem;
+    transform: translateX(6rem);
+}
+.img10{
+    margin-left: -5rem;
+}
+.plans{
+    width: 100%;
+    height: 27rem;
+    position: relative;
+    margin-top: 3rem;
+    padding-left: 3rem;
+}
+.heading{
+    padding-left:9rem;
+    font-style: inherit;
+    font-size:2rem;
+    font-weight:600;
+    
+}
+.plansboxes{
+    width:90%;
+    height: 27rem;
+    margin-left: 8rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+.plandiv{
+    width:50rem;
+    height:27rem;
+    margin-top: 0.5rem;
+    border-radius:1rem;
+    padding-left: 1.2rem;
+    padding-top: 2.4rem;
+}
+.plandiv span{
+    font-size:1.8rem;
+}
+.mostpopular{
+    width: 10.5rem;
+    height:2.6rem;
+    font-size:1.5rem;
+}
+.plandiv p{
+    font-size: 2.1rem;
+}
+.plandiv img{
+    width:1.1rem;
+    height: 1.1rem;
+    margin-right:5px;
+    
+}
+.plandiv h2{
+   font-size: 3rem;
+}
+.plandiv h3{
+  font-size: 2rem;
+}
+.plandiv img{
+    width: 3rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.reasons{
+    width: 100%;
+    height: 25rem;
+    margin-top:5rem;
+}
+.reasonsboxes{
+    width:90%;
+    height: 25rem;
+    margin-left: 10rem;
+    gap: 2rem;
+    
+}
+.reasondiv{
+    width:40.1rem;
+    height:25rem;
+    margin-top: 0.5rem;
+    border-radius:1rem;
+    padding-left: 1.2rem;
+    padding-top: 1.5rem;
+}
+.heading2{
+    padding-left:10rem;
+    font-size:3rem;
+}
+.reasondiv h2{
+    font-size: 2rem;
+}
+.reasondiv p {
+    margin-top: 2.5rem;
+    font-size: 1.8rem;
+}
+.reasondiv svg{
+    width: 7rem;
+    height: 9rem;
+}
+.reasondiv div {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    bottom: 15%;
+    right: 10%;
+}
+.qna{
+    margin-top: 12rem;
+    margin-left: 2rem;
+    height: 45rem;
+}
+.faq h1 {
+    font-size: 2.7rem;
+}
+.questions {
+    width: 86%;
+    height: 40rem;
+}
+.qdiv{
+    height: 6rem;
+}
+.qdivs {
+    width: 35rem;
+}
+.qdiv p {
+    font-size: 2rem;
+}
+.plus img{
+    width: 2.5rem;
+}
+.lastdance{
+    font-size: 1.5rem;
+}
+.formflex{
+    gap:28rem;
+}
+.formcreation{
+    margin-left: 60rem;
+}
+.formcreation input{
+    width: 10rem;
+    height: 1.5rem;
+}
+.formcreation label{
+   font-size: 1.3rem;
+}
+.formcreation form{
+    width: 10rem;
+    height: 1.5rem;
+}
+.getstarted button {
+    width: 8.5rem;
+    height: 2.4rem;
+    font-size: 1.1rem;
+}
+.callq{
+        font-size: 1.3rem;
+}
+.gridelement {
+    font-size: 1.4rem;
+}
+.lang2 {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 20px;
+ }
+ .lastone {
+    font-size: 1.4rem;
+ }

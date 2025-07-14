@@ -23,7 +23,7 @@ body {
     height: 50rem;
     opacity: 0.16;
     filter: blur(16px);
-    background: url('/image/image0.png') no-repeat center center;
+    background: url('./image/image0.png') no-repeat center center;
     background-size: cover;
     z-index:-1;
     background: linear-gradient(to top, rgb(12, 12, 12), transparent);
